@@ -82,7 +82,7 @@ public class DemoController {
     /**
      * 回调处理
      */
-    @RequestMapping("/oauth/mp/callback")
+    @RequestMapping("/oauth/wechat_mp/callback")
     @ResponseBody
     public Object callback(HttpServletRequest request, String echostr) {
         String type = "";
